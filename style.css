@@ -1,0 +1,77 @@
+img
+{
+ width:250px;
+    border-radius:50%;
+    margin-bottom:50px;
+}
+#welcome{
+    position:absolute;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: table;
+    background: linear-gradient(darkblue 0%, teal 100%);
+    width:100%;
+    height: 700px;
+}
+body
+{
+  padding-top:700px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.para-inner{
+    display:table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+h1{
+    font-size: 40px;
+}
+#bio{
+    background: linear-gradient(teal 0%, darkblue 100%);
+    margin: 0;
+    padding: 0px;
+        text-align: center;
+}
+.line{
+    height:6px;
+    width:70px;
+    background-color: black;
+    margin: 8px auto;
+}
+p{
+    max-width: 450px;
+    margin: 25px auto;
+}
+.menu{
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor:pointer;
+}
+.links{
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    
+    font-size: 20px;
+    color: firebrick;
+    
+}
+.links:hover{
+    background-color: aquamarine;
+}
+#videos,#work,#writings {
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
